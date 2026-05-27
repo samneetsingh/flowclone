@@ -1,0 +1,6 @@
+vendor/
+build/
+*.xcuserdata
+.DS_Store
+FlowClone/Resources/whisper-cpp
+docs/

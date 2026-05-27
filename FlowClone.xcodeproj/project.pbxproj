@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* FlowCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* FlowCloneApp.swift */; };
+		A10000010000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* AppDelegate.swift */; };
+		A10000010000000000000003 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* AppState.swift */; };
+		A10000010000000000000004 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* MenuBarView.swift */; };
+		A10000010000000000000005 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* OnboardingView.swift */; };
+		A10000020000000000000001 /* Hotkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000001 /* Hotkey.swift */; };
+		A10000020000000000000002 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000002 /* Settings.swift */; };
+		A10000020000000000000003 /* HotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000003 /* HotkeyManager.swift */; };
+		A10000020000000000000004 /* HotkeyCaptureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000004 /* HotkeyCaptureField.swift */; };
+		A10000020000000000000005 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000005 /* SettingsView.swift */; };
+		A10000030000000000000001 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000030000000000000001 /* AudioRecorder.swift */; };
+		A10000040000000000000001 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000040000000000000001 /* ModelManager.swift */; };
+		A10000040000000000000002 /* WhisperRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000040000000000000002 /* WhisperRunner.swift */; };
+		A10000040000000000000003 /* ModelOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000040000000000000003 /* ModelOnboardingView.swift */; };
+		A10000050000000000000001 /* BinaryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000050000000000000001 /* BinaryManager.swift */; };
+		A10000050000000000000002 /* BinaryOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000050000000000000002 /* BinaryOnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* FlowCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCloneApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A20000010000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000010000000000000007 /* FlowClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlowClone.entitlements; sourceTree = "<group>"; };
+		A20000010000000000000010 /* FlowClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000020000000000000001 /* Hotkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotkey.swift; sourceTree = "<group>"; };
+		A20000020000000000000002 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		A20000020000000000000003 /* HotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyManager.swift; sourceTree = "<group>"; };
+		A20000020000000000000004 /* HotkeyCaptureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyCaptureField.swift; sourceTree = "<group>"; };
+		A20000020000000000000005 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000030000000000000001 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		A20000040000000000000001 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		A20000040000000000000002 /* WhisperRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperRunner.swift; sourceTree = "<group>"; };
+		A20000040000000000000003 /* ModelOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelOnboardingView.swift; sourceTree = "<group>"; };
+		A20000050000000000000001 /* BinaryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryManager.swift; sourceTree = "<group>"; };
+		A20000050000000000000002 /* BinaryOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryOnboardingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000010000000000000001 /* = FlowClone */ = {
+			isa = PBXGroup;
+			children = (
+				A40000010000000000000002 /* FlowClone */,
+				A40000010000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000010000000000000002 /* FlowClone */ = {
+			isa = PBXGroup;
+			children = (
+				A40000010000000000000003 /* App */,
+				A40000020000000000000001 /* Core */,
+				A40000010000000000000004 /* Models */,
+				A40000010000000000000005 /* UI */,
+				A40000010000000000000007 /* Resources */,
+			);
+			path = FlowClone;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* FlowCloneApp.swift */,
+				A20000010000000000000002 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A40000020000000000000001 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A20000030000000000000001 /* AudioRecorder.swift */,
+				A20000050000000000000001 /* BinaryManager.swift */,
+				A20000020000000000000003 /* HotkeyManager.swift */,
+				A20000040000000000000001 /* ModelManager.swift */,
+				A20000040000000000000002 /* WhisperRunner.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000003 /* AppState.swift */,
+				A20000020000000000000001 /* Hotkey.swift */,
+				A20000020000000000000002 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000005 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000004 /* MenuBarView.swift */,
+				A20000010000000000000005 /* OnboardingView.swift */,
+				A20000020000000000000004 /* HotkeyCaptureField.swift */,
+				A20000020000000000000005 /* SettingsView.swift */,
+				A20000050000000000000002 /* BinaryOnboardingView.swift */,
+				A20000040000000000000003 /* ModelOnboardingView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000010 /* FlowClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000010000000000000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000006 /* Info.plist */,
+				A20000010000000000000007 /* FlowClone.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000010000000000000001 /* FlowClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000010000000000000003 /* Build configuration list for PBXNativeTarget "FlowClone" */;
+			buildPhases = (
+				A60000010000000000000001 /* Sources */,
+				A30000010000000000000001 /* Frameworks */,
+				A60000020000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowClone;
+			productName = FlowClone;
+			productReference = A20000010000000000000010 /* FlowClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50000010000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A70000010000000000000001 /* Build configuration list for PBXProject "FlowClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000010000000000000001 /* = FlowClone */;
+			productRefGroup = A40000010000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000010000000000000001 /* FlowClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* FlowCloneApp.swift in Sources */,
+				A10000010000000000000002 /* AppDelegate.swift in Sources */,
+				A10000010000000000000003 /* AppState.swift in Sources */,
+				A10000010000000000000004 /* MenuBarView.swift in Sources */,
+				A10000010000000000000005 /* OnboardingView.swift in Sources */,
+				A10000020000000000000001 /* Hotkey.swift in Sources */,
+				A10000020000000000000002 /* Settings.swift in Sources */,
+				A10000020000000000000003 /* HotkeyManager.swift in Sources */,
+				A10000020000000000000004 /* HotkeyCaptureField.swift in Sources */,
+				A10000020000000000000005 /* SettingsView.swift in Sources */,
+				A10000030000000000000001 /* AudioRecorder.swift in Sources */,
+				A10000040000000000000001 /* ModelManager.swift in Sources */,
+				A10000040000000000000002 /* WhisperRunner.swift in Sources */,
+				A10000040000000000000003 /* ModelOnboardingView.swift in Sources */,
+				A10000050000000000000001 /* BinaryManager.swift in Sources */,
+				A10000050000000000000002 /* BinaryOnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60000020000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A80000010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FlowClone/Resources/Info.plist;
+				CODE_SIGN_ENTITLEMENTS = FlowClone/Resources/FlowClone.entitlements;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowclone.FlowClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FlowClone/Resources/Info.plist;
+				CODE_SIGN_ENTITLEMENTS = FlowClone/Resources/FlowClone.entitlements;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowclone.FlowClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000010000000000000001 /* Build configuration list for PBXProject "FlowClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000010000000000000001 /* Debug */,
+				A80000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000010000000000000003 /* Build configuration list for PBXNativeTarget "FlowClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000010000000000000003 /* Debug */,
+				A80000010000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50000010000000000000002 /* Project object */;
+}
