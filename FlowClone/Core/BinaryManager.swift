@@ -6,7 +6,7 @@ class BinaryManager: NSObject, ObservableObject {
     @Published var downloadError: String?
 
     private static let binaryName = "whisper-cpp"
-    private static let downloadURLString = "https://github.com/OWNER/flowclone/releases/download/whisper-cpp-v1/whisper-cpp"
+    private static let downloadURLString = "https://github.com/samneetsingh/flowclone/releases/download/whisper-cpp-v1/whisper-cpp"
 
     private var downloadContinuation: CheckedContinuation<Void, Error>?
     private lazy var session: URLSession = {
